@@ -10,7 +10,7 @@ DenseNet100-12 from scratch <br>
 - growth rate = 12  <br>
 - used on Cifar10, Cifar100 and SVHN datasets [git repo on densenet](https://github.com/liuzhuang13/DenseNet/blob/master)
 - implemented using keras
-- train, save and load pretrained weights 
+- train, save and load pretrained weights [get it here](https://github.com/MyWhiteCastle/BME-590-Project3/blob/master/densenet100_pretrained.h5) 
 
 ## Results
 Results on direct pruning on the pretrained model <br>
