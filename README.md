@@ -16,7 +16,7 @@ DenseNet100-12 from scratch <br>
 Results on direct pruning on the pretrained model [all checkpoints are saved here](https://github.com/MyWhiteCastle/BME-590-Project3/tree/master/direct%20pruning%20checkpoints)<br>
 ![direct pruning](https://github.com/MyWhiteCastle/BME-590-Project3/blob/master/results/Direct%20Pruning%20corrected.png "direct pruning")
 
-Results on iterative pruning on the pretrained model[all checkpoints are saved here](https://github.com/MyWhiteCastle/BME-590-Project3/tree/master/iterative%20pruning%20checkpoints) <br>
+Results on iterative pruning on the pretrained model [all checkpoints are saved here](https://github.com/MyWhiteCastle/BME-590-Project3/tree/master/iterative%20pruning%20checkpoints) <br>
 ![iterative pruning](https://github.com/MyWhiteCastle/BME-590-Project3/blob/master/results/Iterative%20Pruning.png "iterative pruning")
 
 Results on model compression rate after applying iterative pruning and quantization on the pretrained model
