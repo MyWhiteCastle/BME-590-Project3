@@ -12,6 +12,9 @@ DenseNet100-12 from scratch <br>
 - implemented using keras
 - pretrained weights 
 
+## Results
+Results on direct pruning on the pretrained model <br>
+![alt text] (https://github.com/MyWhiteCastle/BME-590-Project3/blob/master/results/Direct%20Pruning%20corrected.png)
 
 
 
