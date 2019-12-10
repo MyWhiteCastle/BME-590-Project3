@@ -10,7 +10,7 @@ DenseNet100-12 from scratch <br>
 - growth rate = 12  <br>
 - used on Cifar10, Cifar100 and SVHN datasets [git repo on densenet](https://github.com/liuzhuang13/DenseNet/blob/master)
 - implemented using keras
-- train, save and load pretrained weights [get it here](https://github.com/MyWhiteCastle/BME-590-Project3/blob/master/densenet100_pretrained.h5) 
+- train, save and load pretrained weights [densenet_100_12_pretrained.h5](https://github.com/MyWhiteCastle/BME-590-Project3/blob/master/densenet_100_12_pretrained.h5) 
 
 ## Results
 Results on direct pruning on the pretrained model <br>
@@ -19,3 +19,4 @@ Results on direct pruning on the pretrained model <br>
 Results on iterative pruning on the pretrained model <br>
 ![iterative pruning](https://github.com/MyWhiteCastle/BME-590-Project3/blob/master/results/Iterative%20Pruning.png "iterative pruning")
 
+Results on model compression rate after applying iterative pruning and quantization on the pretrained model
