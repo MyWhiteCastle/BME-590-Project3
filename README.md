@@ -20,3 +20,4 @@ Results on iterative pruning on the pretrained model [all checkpoints are saved 
 ![iterative pruning](https://github.com/MyWhiteCastle/BME-590-Project3/blob/master/results/Iterative%20Pruning.png "iterative pruning")
 
 Results on model compression rate after applying iterative pruning and quantization on the pretrained model
+![compression rate table](https://github.com/MyWhiteCastle/BME-590-Project3/blob/master/results/compression_rate_table.png "compression rate table")
