@@ -38,4 +38,4 @@ Quantization preserves the model performance using a technique called weight sha
 
 ## Thanks
 Duke ECE 590-10 Yiran Chen and Hai Li Lecture 13 slides on Model Compression <br>
-Duke BME 590 Ouwen Huang and Xiling Shen <br>
+Duke BME 590-02 Ouwen Huang and Xiling Shen <br>
