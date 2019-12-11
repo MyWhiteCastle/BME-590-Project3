@@ -1,5 +1,5 @@
 # Light Implementation on Model Compression 
-- Duke BME-590-Biomedical Machine Learning Final Project
+- Duke BME-590-02 Biomedical Machine Learning Final Project
 - A practice to understand the effect of model compression under keras/tensorflow environment
 - Original paper: DEEP COMPRESSION: COMPRESSING DEEP NEURAL NETWORKS WITH PRUNING, TRAINED QUANTIZATION AND HUFFMAN CODING
  [click here](https://github.com/songhan/Deep-Compression-AlexNet/blob/master)
