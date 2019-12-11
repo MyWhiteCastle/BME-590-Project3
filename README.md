@@ -27,8 +27,15 @@ Results on iterative pruning on the pretrained model [all checkpoints are saved 
 Results on model compression rate after applying iterative pruning and quantization on the pretrained model
 ![compression rate table](https://github.com/MyWhiteCastle/BME-590-Project3/blob/master/results/compression_rate_table.png "compression rate table")
 
-The results generally show that sparse model () can achieve the same performance if iterative pruning is carried out properly
+## Highlights
+The results show that iteraitve pruning helps to slim the model while keep the model performance. For example, the pruned model with 70% sparsity can achieve 68% accuracy. The hyperparameters (epochs, learning rate, etc.) in the experiment are set the same for all sparsity levels. However, one can always tune those hyperparameters based on the sparsity level accordingly.
 
-## Discussion
 Direct pruning hurts the model performance but if retraining (i.e., fine-tuning) could be applied afterwards (only update the non-zero weights), the model performance evaluated in accuracy here will recover according to the paper. 
-As there is concern that direct pruning might actually damage the accuracy from recovery, iterative pruning is commonly applied 
+
+As there is concern that the pruned model might have difficulty recovering from direct pruning, iterative pruning is commonly applied in real cases. Here tensorflow provides us with a ready-to-go package Magnitude-based weight pruning with Keras ([click here](https://www.tensorflow.org/model_optimization/guide/pruning/pruning_with_keras?authuser=1)) so that we can use directly to practice iterative pruning but with the caution that it is only compatible with tf 1.x version. 
+
+Quantization preserves the model performance using a technique called weight sharing. Weight sharing is implemented by K-means algorithm using sklearn package. Huffman coding will not affect the model performance and it is coded for each layer in the .ipynb file. 
+
+## Thanks
+Duke ECE 590-10 Yiran Chen and Hai Li Lecture 13 slides on Model Compression <br>
+Duke BME 590 Ouwen Huang and Xiling Shen <br>
